@@ -18,7 +18,7 @@ int main() {
     // Entrada Carta 1
     printf("Carta 1\n");
     printf("Digite o estado: ");
-    scanf("%s", estado);
+    scanf(" %[^\n]", estado);
     printf("Digite o código: ");
     scanf("%s", codigoDaCarta);
     printf("Digite o nome da cidade: ");
@@ -40,7 +40,7 @@ int main() {
     // Entrada Carta 2
     printf("\nCarta 2\n");
     printf("Digite o estado: ");
-    scanf("%s", estado2);
+    scanf(" %[^\n]", estado2);
     printf("Digite o código: ");
     scanf("%s", codigoDaCarta2);
     printf("Digite o nome da cidade: ");
